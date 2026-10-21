@@ -1,0 +1,65 @@
+\begin{table*}[!t]
+\caption{Ablation and sensitivity results with seeds 0 to 4: marginal coverage (Cov.), coverage of the finite intervals (Fin.\ cov.) and mean fraction of infinite intervals over trace and seed pairs (Inf.\ frac.). The target is 0.90 except in the $\alpha=0.05$ rows (0.95). Split CP does not depend on $\gamma$; differences from Table~\ref{tab:main} reflect the smaller seed set. The 5-s rows marked immediate apply each label before the next interval is issued; the label-delay rows apply each label when it is observed, five rows later. Abbreviations as in Table~\ref{tab:main}.}
+\label{tab:ablations}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{llllrrr}
+\toprule
+Ablation & Regime & Setting & Method & Cov. & Fin.\ cov. & Inf.\ frac. \\
+\midrule
+Base model & Mobility 5G & persistence & Mondrian-ACI & 0.904 & 0.899 & 0.036 \\
+Base model & Mobility 5G & persistence & Split CP & 0.933 & 0.933 & 0.000 \\
+Base model & Mobility 5G & ridge & Mondrian-ACI & 0.904 & 0.899 & 0.042 \\
+Base model & Mobility 5G & ridge & Split CP & 0.812 & 0.812 & 0.000 \\
+Base model & Tech 4G$\rightarrow$5G & persistence & Mondrian-ACI & 0.902 & 0.884 & 0.104 \\
+Base model & Tech 4G$\rightarrow$5G & persistence & Split CP & 0.748 & 0.748 & 0.000 \\
+Base model & Tech 4G$\rightarrow$5G & ridge & Mondrian-ACI & 0.901 & 0.883 & 0.106 \\
+Base model & Tech 4G$\rightarrow$5G & ridge & Split CP & 0.732 & 0.732 & 0.000 \\
+Base model & In-domain 4G & persistence & Mondrian-ACI & 0.902 & 0.898 & 0.042 \\
+Base model & In-domain 4G & persistence & Split CP & 0.906 & 0.906 & 0.000 \\
+Base model & In-domain 4G & ridge & Mondrian-ACI & 0.902 & 0.898 & 0.042 \\
+Base model & In-domain 4G & ridge & Split CP & 0.905 & 0.905 & 0.000 \\
+$\alpha=0.05$ & App 5G & $\alpha=0.05$ & Mondrian-ACI & 0.953 & 0.950 & 0.049 \\
+$\alpha=0.05$ & App 5G & $\alpha=0.05$ & Split CP & 0.994 & 0.994 & 0.000 \\
+$\alpha=0.05$ & Mobility 4G & $\alpha=0.05$ & Mondrian-ACI & 0.951 & 0.935 & 0.223 \\
+$\alpha=0.05$ & Mobility 4G & $\alpha=0.05$ & Split CP & 0.908 & 0.908 & 0.000 \\
+$\alpha=0.05$ & Mobility 5G & $\alpha=0.05$ & Mondrian-ACI & 0.951 & 0.944 & 0.096 \\
+$\alpha=0.05$ & Mobility 5G & $\alpha=0.05$ & Split CP & 0.916 & 0.916 & 0.000 \\
+$\alpha=0.05$ & Tech 4G$\rightarrow$5G & $\alpha=0.05$ & Mondrian-ACI & 0.951 & 0.932 & 0.222 \\
+$\alpha=0.05$ & Tech 4G$\rightarrow$5G & $\alpha=0.05$ & Split CP & 0.811 & 0.811 & 0.000 \\
+$\alpha=0.05$ & Tech 5G$\rightarrow$4G & $\alpha=0.05$ & Mondrian-ACI & 0.952 & 0.946 & 0.089 \\
+$\alpha=0.05$ & Tech 5G$\rightarrow$4G & $\alpha=0.05$ & Split CP & 0.905 & 0.905 & 0.000 \\
+$\alpha=0.05$ & In-domain 4G & $\alpha=0.05$ & Mondrian-ACI & 0.952 & 0.948 & 0.074 \\
+$\alpha=0.05$ & In-domain 4G & $\alpha=0.05$ & Split CP & 0.952 & 0.952 & 0.000 \\
+$\alpha=0.05$ & In-domain 5G & $\alpha=0.05$ & Mondrian-ACI & 0.952 & 0.949 & 0.047 \\
+$\alpha=0.05$ & In-domain 5G & $\alpha=0.05$ & Split CP & 0.972 & 0.972 & 0.000 \\
+$\gamma$ & App 5G & $\gamma=0.01$ & Mondrian-ACI & 0.916 & 0.916 & 0.000 \\
+$\gamma$ & App 5G & $\gamma=0.01$ & Split CP & 0.967 & 0.967 & 0.000 \\
+$\gamma$ & App 5G & $\gamma=0.02$ & Mondrian-ACI & 0.909 & 0.909 & 0.002 \\
+$\gamma$ & App 5G & $\gamma=0.02$ & Split CP & 0.967 & 0.967 & 0.000 \\
+$\gamma$ & Mobility 4G & $\gamma=0.01$ & Mondrian-ACI & 0.902 & 0.890 & 0.093 \\
+$\gamma$ & Mobility 4G & $\gamma=0.01$ & Split CP & 0.840 & 0.840 & 0.000 \\
+$\gamma$ & Mobility 4G & $\gamma=0.02$ & Mondrian-ACI & 0.901 & 0.886 & 0.117 \\
+$\gamma$ & Mobility 4G & $\gamma=0.02$ & Split CP & 0.840 & 0.840 & 0.000 \\
+$\gamma$ & Mobility 5G & $\gamma=0.01$ & Mondrian-ACI & 0.906 & 0.902 & 0.031 \\
+$\gamma$ & Mobility 5G & $\gamma=0.01$ & Split CP & 0.849 & 0.849 & 0.000 \\
+$\gamma$ & Mobility 5G & $\gamma=0.02$ & Mondrian-ACI & 0.904 & 0.898 & 0.039 \\
+$\gamma$ & Mobility 5G & $\gamma=0.02$ & Split CP & 0.849 & 0.849 & 0.000 \\
+$\gamma$ & Tech 4G$\rightarrow$5G & $\gamma=0.01$ & Mondrian-ACI & 0.903 & 0.893 & 0.064 \\
+$\gamma$ & Tech 4G$\rightarrow$5G & $\gamma=0.01$ & Split CP & 0.727 & 0.727 & 0.000 \\
+$\gamma$ & Tech 4G$\rightarrow$5G & $\gamma=0.02$ & Mondrian-ACI & 0.902 & 0.889 & 0.080 \\
+$\gamma$ & Tech 4G$\rightarrow$5G & $\gamma=0.02$ & Split CP & 0.727 & 0.727 & 0.000 \\
+$\gamma$ & Tech 5G$\rightarrow$4G & $\gamma=0.01$ & Mondrian-ACI & 0.906 & 0.905 & 0.012 \\
+$\gamma$ & Tech 5G$\rightarrow$4G & $\gamma=0.01$ & Split CP & 0.789 & 0.789 & 0.000 \\
+$\gamma$ & Tech 5G$\rightarrow$4G & $\gamma=0.02$ & Mondrian-ACI & 0.903 & 0.900 & 0.030 \\
+$\gamma$ & Tech 5G$\rightarrow$4G & $\gamma=0.02$ & Split CP & 0.789 & 0.789 & 0.000 \\
+Horizon 5\,s & Tech 4G$\rightarrow$5G & immediate & Mondrian-ACI & 0.901 & 0.883 & 0.115 \\
+Horizon 5\,s & Tech 4G$\rightarrow$5G & immediate & Split CP & 0.759 & 0.759 & 0.000 \\
+Horizon 5\,s & Tech 4G$\rightarrow$5G & label delay & Mondrian-ACI & 0.900 & 0.866 & 0.224 \\
+Horizon 5\,s & In-domain 5G & immediate & Mondrian-ACI & 0.904 & 0.901 & 0.025 \\
+Horizon 5\,s & In-domain 5G & immediate & Split CP & 0.944 & 0.944 & 0.000 \\
+Horizon 5\,s & In-domain 5G & label delay & Mondrian-ACI & 0.904 & 0.894 & 0.073 \\
+\bottomrule
+\end{tabular}
+\end{table*}

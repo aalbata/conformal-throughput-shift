@@ -1,0 +1,73 @@
+{
+ "tag": "main",
+ "amendment": "protocol/amendments.md, amendment 1",
+ "amendment_sha256": "02404e7cab96c3b32a19667a0724e8d663626bb810eec3b2c9f66132c8eaa444",
+ "protocol_sha256": "a5a370e9da107e7021cfdaa6f75832a64fc0cc207a20766a87da31681a13bd0d",
+ "features": "features_h1_timed.csv.gz",
+ "features_sha256": "d011edd7836919ca2f9d85005f0bb947126ed860de7fde65917b89463ab2ee43",
+ "locked_rows_sha256": "dbc53dff10f4819261d1554451af78e2c0d02b6ed641d10ba5b3fdb07f8e85b9",
+ "regimes": [
+  "in_domain_4g",
+  "in_domain_5g",
+  "cross_mobility_4g",
+  "cross_mobility_5g",
+  "cross_tech_4to5",
+  "cross_tech_5to4",
+  "cross_app_5g"
+ ],
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "horizon": 1,
+ "delays_s": [
+  0.0,
+  1.0,
+  2.0,
+  5.0,
+  10.0
+ ],
+ "alpha": 0.1,
+ "gamma": 0.05,
+ "base_model": "gbm",
+ "reproduction_tolerance": 1e-12,
+ "outputs": {
+  "main_traces.csv.gz": "2cf58698a2990ed0cdda39ddc77d12b1138fc9fcbb847cec22c08d3c517ac23a",
+  "main_groups.csv.gz": "731c4a724ec25dab39d5bbc726b181b8b98f1158b975423fca28429675f75e9a"
+ },
+ "environment": {
+  "machine": "RKW-P-H00655335",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "python": "3.12.10",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "scikit-learn": "1.9.0",
+  "scipy": "1.18.1",
+  "joblib": "1.5.3",
+  "thread_env": {
+   "OMP_NUM_THREADS": "1",
+   "MKL_NUM_THREADS": "1",
+   "OPENBLAS_NUM_THREADS": "1",
+   "NUMEXPR_NUM_THREADS": "1"
+  }
+ }
+}

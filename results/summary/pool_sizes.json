@@ -1,0 +1,198 @@
+{
+ "cross_app_5g.speed_0": {
+  "n_pool_max": 9277,
+  "n_pool_median": 3269.0,
+  "n_pool_min": 0,
+  "n_pooled_min": 4752,
+  "n_seeds_fallback": 2
+ },
+ "cross_app_5g.speed_high": {
+  "n_pool_max": 1518,
+  "n_pool_median": 697.0,
+  "n_pool_min": 255,
+  "n_pooled_min": 4752,
+  "n_seeds_fallback": 0
+ },
+ "cross_app_5g.speed_low": {
+  "n_pool_max": 980,
+  "n_pool_median": 459.5,
+  "n_pool_min": 114,
+  "n_pooled_min": 4752,
+  "n_seeds_fallback": 0
+ },
+ "cross_app_5g.speed_med": {
+  "n_pool_max": 6545,
+  "n_pool_median": 3768.0,
+  "n_pool_min": 586,
+  "n_pooled_min": 4752,
+  "n_seeds_fallback": 0
+ },
+ "cross_mobility_4g.speed_0": {
+  "n_pool_max": 5745,
+  "n_pool_median": 3192.5,
+  "n_pool_min": 1333,
+  "n_pooled_min": 6755,
+  "n_seeds_fallback": 0
+ },
+ "cross_mobility_4g.speed_high": {
+  "n_pool_max": 9,
+  "n_pool_median": 0.0,
+  "n_pool_min": 0,
+  "n_pooled_min": 6755,
+  "n_seeds_fallback": 20
+ },
+ "cross_mobility_4g.speed_low": {
+  "n_pool_max": 11749,
+  "n_pool_median": 6309.5,
+  "n_pool_min": 4021,
+  "n_pooled_min": 6755,
+  "n_seeds_fallback": 0
+ },
+ "cross_mobility_4g.speed_med": {
+  "n_pool_max": 553,
+  "n_pool_median": 248.5,
+  "n_pool_min": 0,
+  "n_pooled_min": 6755,
+  "n_seeds_fallback": 7
+ },
+ "cross_mobility_5g.speed_0": {
+  "n_pool_max": 17510,
+  "n_pool_median": 9877.0,
+  "n_pool_min": 1816,
+  "n_pooled_min": 4071,
+  "n_seeds_fallback": 0
+ },
+ "cross_mobility_5g.speed_high": {
+  "n_pool_max": 111,
+  "n_pool_median": 0.0,
+  "n_pool_min": 0,
+  "n_pooled_min": 4071,
+  "n_seeds_fallback": 14
+ },
+ "cross_mobility_5g.speed_low": {
+  "n_pool_max": 7813,
+  "n_pool_median": 1587.0,
+  "n_pool_min": 0,
+  "n_pooled_min": 4071,
+  "n_seeds_fallback": 2
+ },
+ "cross_mobility_5g.speed_med": {
+  "n_pool_max": 105,
+  "n_pool_median": 0.0,
+  "n_pool_min": 0,
+  "n_pooled_min": 4071,
+  "n_seeds_fallback": 14
+ },
+ "cross_tech_4to5.speed_0": {
+  "n_pool_max": 12680,
+  "n_pool_median": 9957.5,
+  "n_pool_min": 6175,
+  "n_pooled_min": 26042,
+  "n_seeds_fallback": 0
+ },
+ "cross_tech_4to5.speed_high": {
+  "n_pool_max": 6973,
+  "n_pool_median": 4408.0,
+  "n_pool_min": 2613,
+  "n_pooled_min": 26042,
+  "n_seeds_fallback": 0
+ },
+ "cross_tech_4to5.speed_low": {
+  "n_pool_max": 11994,
+  "n_pool_median": 6356.0,
+  "n_pool_min": 4184,
+  "n_pooled_min": 26042,
+  "n_seeds_fallback": 0
+ },
+ "cross_tech_4to5.speed_med": {
+  "n_pool_max": 13609,
+  "n_pool_median": 8639.5,
+  "n_pool_min": 5604,
+  "n_pooled_min": 26042,
+  "n_seeds_fallback": 0
+ },
+ "cross_tech_5to4.speed_0": {
+  "n_pool_max": 21526,
+  "n_pool_median": 8562.0,
+  "n_pool_min": 863,
+  "n_pooled_min": 14076,
+  "n_seeds_fallback": 0
+ },
+ "cross_tech_5to4.speed_high": {
+  "n_pool_max": 3326,
+  "n_pool_median": 2474.5,
+  "n_pool_min": 1364,
+  "n_pooled_min": 14076,
+  "n_seeds_fallback": 0
+ },
+ "cross_tech_5to4.speed_low": {
+  "n_pool_max": 9835,
+  "n_pool_median": 3095.5,
+  "n_pool_min": 1254,
+  "n_pooled_min": 14076,
+  "n_seeds_fallback": 0
+ },
+ "cross_tech_5to4.speed_med": {
+  "n_pool_max": 15434,
+  "n_pool_median": 8938.5,
+  "n_pool_min": 5808,
+  "n_pooled_min": 14076,
+  "n_seeds_fallback": 0
+ },
+ "in_domain_4g.speed_0": {
+  "n_pool_max": 14095,
+  "n_pool_median": 10366.0,
+  "n_pool_min": 6092,
+  "n_pooled_min": 25737,
+  "n_seeds_fallback": 0
+ },
+ "in_domain_4g.speed_high": {
+  "n_pool_max": 9327,
+  "n_pool_median": 5187.5,
+  "n_pool_min": 2118,
+  "n_pooled_min": 25737,
+  "n_seeds_fallback": 0
+ },
+ "in_domain_4g.speed_low": {
+  "n_pool_max": 10652,
+  "n_pool_median": 6130.0,
+  "n_pool_min": 4475,
+  "n_pooled_min": 25737,
+  "n_seeds_fallback": 0
+ },
+ "in_domain_4g.speed_med": {
+  "n_pool_max": 12628,
+  "n_pool_median": 8618.0,
+  "n_pool_min": 3114,
+  "n_pooled_min": 25737,
+  "n_seeds_fallback": 0
+ },
+ "in_domain_5g.speed_0": {
+  "n_pool_max": 17263,
+  "n_pool_median": 8752.5,
+  "n_pool_min": 357,
+  "n_pooled_min": 19111,
+  "n_seeds_fallback": 0
+ },
+ "in_domain_5g.speed_high": {
+  "n_pool_max": 3338,
+  "n_pool_median": 2274.5,
+  "n_pool_min": 1365,
+  "n_pooled_min": 19111,
+  "n_seeds_fallback": 0
+ },
+ "in_domain_5g.speed_low": {
+  "n_pool_max": 10225,
+  "n_pool_median": 3378.0,
+  "n_pool_min": 1219,
+  "n_pooled_min": 19111,
+  "n_seeds_fallback": 0
+ },
+ "in_domain_5g.speed_med": {
+  "n_pool_max": 17830,
+  "n_pool_median": 9809.5,
+  "n_pool_min": 6132,
+  "n_pooled_min": 19111,
+  "n_seeds_fallback": 0
+ }
+}

@@ -1,0 +1,15 @@
+regime,base_model,alpha,gamma,method,coverage,marginal_coverage,median_width,frac_inf
+cross_tech_4to5,gbm,0.1,0.05,aci,0.9011,0.9008,inf,0.1053
+cross_tech_4to5,gbm,0.1,0.05,cqr,0.7416,0.717,17.4047,0.0
+cross_tech_4to5,gbm,0.1,0.05,gaussian,0.7769,0.7487,15.0364,0.0
+cross_tech_4to5,gbm,0.1,0.05,mondrian,0.7816,0.7485,16.1359,0.0
+cross_tech_4to5,gbm,0.1,0.05,mondrian_aci,0.901,0.9008,inf,0.1147
+cross_tech_4to5,gbm,0.1,0.05,quantile_raw,0.4552,0.518,17.2625,0.0
+cross_tech_4to5,gbm,0.1,0.05,split,0.7869,0.7587,15.6929,0.0
+in_domain_5g,gbm,0.1,0.05,aci,0.9096,0.9057,18.4924,0.0175
+in_domain_5g,gbm,0.1,0.05,cqr,0.9322,0.9273,19.1192,0.0
+in_domain_5g,gbm,0.1,0.05,gaussian,0.9336,0.9124,35.5511,0.0
+in_domain_5g,gbm,0.1,0.05,mondrian,0.9294,0.9177,37.2524,0.0
+in_domain_5g,gbm,0.1,0.05,mondrian_aci,0.9067,0.9042,18.832,0.0252
+in_domain_5g,gbm,0.1,0.05,quantile_raw,0.9322,0.9273,19.1192,0.0
+in_domain_5g,gbm,0.1,0.05,split,0.9544,0.9443,53.3215,0.0

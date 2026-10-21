@@ -1,0 +1,20 @@
+\begin{table*}[!t]
+\caption{Winkler interval score \eqref{eq:winkler} in Mbit/s at $\alpha=0.10$, given as the median across traces of the seed-averaged per-trace mean score over finite intervals (20 seeds). Lower is better. Only ACI and Mondrian-ACI issue infinite intervals; their fractions are given in Table~\ref{tab:inform}. Intervals whose upper endpoint lies below the zero-clipped lower endpoint (crossing quantiles or a negative point prediction) count as empty sets of zero width. Abbreviations as in Table~\ref{tab:main}.}
+\label{tab:winkler}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lccccccc}
+\toprule
+Method & In-domain 4G & In-domain 5G & Mobility 4G & Mobility 5G & Tech 4G$\rightarrow$5G & Tech 5G$\rightarrow$4G & App 5G \\
+\midrule
+Gaussian & 17.3 & 22.6 & 21.1 & 23.1 & 28.4 & 28.2 & 36.6 \\
+Raw QR & 13.9 & 13.6 & 16.5 & 12.0 & 20.9 & 20.2 & 21.3 \\
+Split CP & 17.4 & 24.1 & 21.8 & 24.2 & 28.4 & 31.0 & 41.5 \\
+CQR & 13.9 & 13.6 & 16.2 & 12.0 & 20.8 & 20.2 & 20.9 \\
+Mondrian & 17.9 & 19.5 & 23.3 & 22.2 & 28.5 & 37.2 & 35.2 \\
+ACI & 14.7 & 18.2 & 14.7 & 16.8 & 23.2 & 18.4 & 23.9 \\
+Mondrian-ACI & 14.6 & 18.4 & 14.5 & 17.1 & 23.3 & 19.0 & 24.8 \\
+\bottomrule
+\end{tabular}
+\end{table*}

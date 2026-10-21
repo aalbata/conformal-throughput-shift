@@ -1,0 +1,17 @@
+{
+ "locked_rows_sha256": "dbc53dff10f4819261d1554451af78e2c0d02b6ed641d10ba5b3fdb07f8e85b9",
+ "n_rows_locked": 127995,
+ "n_rows_main": 66080,
+ "excluded_short_sessions_rule": 30,
+ "tables": [
+  "ablations_abl_alpha05.csv",
+  "ablations_abl_base.csv",
+  "ablations_abl_gamma.csv",
+  "ablations_abl_h5.csv",
+  "downstream.csv",
+  "group_coverage.csv",
+  "summary_main.csv",
+  "tests_confirmatory.csv",
+  "tests_secondary.csv"
+ ]
+}

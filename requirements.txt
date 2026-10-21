@@ -1,0 +1,37 @@
+# Python 3.12.10 (Windows 11). Packages imported by src/, scripts/, tests/:
+joblib==1.5.3
+matplotlib==3.11.1
+numpy==2.5.2
+pandas==3.0.5
+pillow==12.3.0
+pytest==9.1.1
+requests==2.34.2
+scikit-learn==1.9.0
+scipy==1.18.1
+statsmodels==0.15.0
+truststore==0.10.4
+# Their dependencies, at the versions used for the shipped results:
+certifi==2026.7.22
+charset-normalizer==3.5.1
+colorama==0.4.6
+contourpy==1.3.3
+cycler==0.12.1
+fonttools==4.63.0
+formulaic==1.2.2
+idna==3.19
+iniconfig==2.3.0
+interface_meta==2.0.1
+kiwisolver==1.5.1
+narwhals==2.25.0
+packaging==26.3
+patsy==1.0.2
+pluggy==1.6.0
+Pygments==2.21.0
+pyparsing==3.3.2
+python-dateutil==2.9.0.post0
+six==1.17.0
+threadpoolctl==3.6.0
+typing_extensions==4.16.0
+tzdata==2026.3
+urllib3==2.7.0
+wrapt==2.3.0

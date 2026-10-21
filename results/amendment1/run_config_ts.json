@@ -1,0 +1,53 @@
+{
+ "tag": "ts",
+ "amendment": "protocol/amendments.md, amendment 1",
+ "amendment_sha256": "02404e7cab96c3b32a19667a0724e8d663626bb810eec3b2c9f66132c8eaa444",
+ "protocol_sha256": "a5a370e9da107e7021cfdaa6f75832a64fc0cc207a20766a87da31681a13bd0d",
+ "features": "features_timebase_h1.csv.gz",
+ "features_sha256": "c36b8d161c3a654ff55eff5b85b771163da0a45dbb37b5a3bc0313cec8e119ba",
+ "locked_rows_sha256": null,
+ "regimes": [
+  "in_domain_4g",
+  "in_domain_5g",
+  "cross_mobility_4g",
+  "cross_mobility_5g",
+  "cross_tech_4to5",
+  "cross_tech_5to4",
+  "cross_app_5g"
+ ],
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "horizon": 1,
+ "delays_s": [
+  0.0
+ ],
+ "alpha": 0.1,
+ "gamma": 0.05,
+ "base_model": "gbm",
+ "reproduction_tolerance": 1e-12,
+ "outputs": {
+  "ts_traces.csv.gz": "d8037a65aa4285295d3155c4f671817ee8051ef607e0747e724c05599fa3e0e1"
+ },
+ "environment": {
+  "machine": "RKW-P-H00655335",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "python": "3.12.10",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "scikit-learn": "1.9.0",
+  "scipy": "1.18.1",
+  "joblib": "1.5.3",
+  "thread_env": {
+   "OMP_NUM_THREADS": "1",
+   "MKL_NUM_THREADS": "1",
+   "OPENBLAS_NUM_THREADS": "1",
+   "NUMEXPR_NUM_THREADS": "1"
+  }
+ }
+}

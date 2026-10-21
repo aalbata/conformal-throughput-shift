@@ -1,0 +1,91 @@
+{
+ "design": {
+  "regimes": [
+   "in_domain_4g",
+   "in_domain_5g",
+   "cross_mobility_4g",
+   "cross_mobility_5g",
+   "cross_tech_4to5",
+   "cross_tech_5to4"
+  ],
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "alpha": 0.1,
+  "gamma": 0.05,
+  "base_model": "gbm",
+  "delay_s": 0.0,
+  "horizon_rows": 1,
+  "variants": [
+   "rate_hm",
+   "rate_point",
+   "rate_split",
+   "rate_aci",
+   "rate_mondrian_aci",
+   "mpc_hm",
+   "mpc_robust",
+   "mpc_point",
+   "mpc_split",
+   "mpc_aci",
+   "mpc_mondrian_aci"
+  ],
+  "estimate_columns": {
+   "point": "pred",
+   "split": "lo_split",
+   "aci": "lo_aci",
+   "mondrian_aci": "lo_mondrian_aci"
+  }
+ },
+ "player": {
+  "buffer_s": 30.0,
+  "segment_s": 4.0,
+  "latency_s": 0.08,
+  "floor_mbps": 0.01,
+  "mpc_horizon": 5,
+  "hm_window": 5,
+  "mu": 39.537,
+  "ladder_kbps": [
+   237,
+   752,
+   1815,
+   4282,
+   14817,
+   39537
+  ],
+  "n_video_segments": 159
+ },
+ "provenance": {
+  "ladder_csv_sha256": "26230d258686cb33e1fa589e3ec51a79a3c458444dddbef4fb9705efb62ec7bb",
+  "has_py_sha256": "960c8a86ab8e9fb2a0d5f1640a8011f4be58bfee3f7b8f67be4eaa8a8b574041",
+  "run_has_py_sha256": "03c08e942613621158125e71271899e771fb85899c7017d79c87ec97926dd270"
+ },
+ "environment": {
+  "host": "RKW-P-H00655335",
+  "python": "3.12.10",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "scikit_learn": "1.9.0",
+  "joblib": "1.5.3",
+  "n_jobs": 6
+ },
+ "first_launch_utc": "2026-10-21T10:35:14Z"
+}

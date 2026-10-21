@@ -1,0 +1,39 @@
+\begin{table*}[!t]
+\caption{Informativeness of split CP, ACI and Mondrian-ACI at nominal level 0.90 (20 seeds, $h=1$, immediate feedback). Inf.\ is the instance-level percentage of infinite intervals. Fin.\ cov.\ is the coverage of the finite intervals, pooled within each seed and averaged over seeds. Fin.\ width is the median across traces of the seed-averaged per-trace median finite width, and Winkler the median across traces of the seed-averaged per-trace mean Winkler score \eqref{eq:winkler} over finite intervals, both in Mbit/s; lower is better. Worst group is the lowest speed-group coverage (mean over seeds) and its speed bin in km/h. The Inf., Fin.\ cov.\ and Worst group columns are post hoc descriptive analyses. Abbreviations as in Table~\ref{tab:main}.}
+\label{tab:inform}
+\centering
+\footnotesize
+\begin{tabular}{llrrrrl}
+\toprule
+Regime & Method & Inf.\ (\%) & Fin.\ cov. & Fin.\ width & Winkler & Worst group \\
+\midrule
+In-domain 4G & Split CP & 0.00 & 0.896 & 12.54 & 17.4 & 0.879 $[0,1)$ \\
+ & ACI & 4.55 & 0.898 & 8.37 & 14.7 & 0.901 $[50,\infty)$ \\
+ & Mondrian-ACI & 5.10 & 0.897 & 8.18 & 14.6 & 0.899 $[50,\infty)$ \\
+\midrule
+In-domain 5G & Split CP & 0.00 & 0.914 & 18.99 & 24.1 & 0.862 $[0,1)$ \\
+ & ACI & 3.80 & 0.899 & 5.45 & 18.2 & 0.901 $[15,50)$ \\
+ & Mondrian-ACI & 6.24 & 0.895 & 5.18 & 18.4 & 0.884 $[50,\infty)$ \\
+\midrule
+Mobility 4G & Split CP & 0.00 & 0.830 & 10.57 & 21.8 & 0.814 $[0,1)$ \\
+ & ACI & 9.93 & 0.890 & 8.49 & 14.7 & 0.900 $[50,\infty)$ \\
+ & Mondrian-ACI & 17.59 & 0.878 & 7.06 & 14.5 & 0.898 $[15,50)$ \\
+\midrule
+Mobility 5G & Split CP & 0.00 & 0.897 & 20.68 & 24.2 & 0.882 $[0,1)$ \\
+ & ACI & 4.81 & 0.898 & 7.03 & 16.8 & 0.902 $[15,50)$ \\
+ & Mondrian-ACI & 7.60 & 0.893 & 7.11 & 17.1 & 0.878 $[1,15)$ \\
+\midrule
+Tech 4G$\rightarrow$5G & Split CP & 0.00 & 0.738 & 7.91 & 28.4 & 0.554 $[0,1)$ \\
+ & ACI & 15.88 & 0.882 & 7.85 & 23.2 & 0.900 $[0,1)$ \\
+ & Mondrian-ACI & 16.04 & 0.882 & 7.76 & 23.3 & 0.898 $[50,\infty)$ \\
+\midrule
+Tech 5G$\rightarrow$4G & Split CP & 0.00 & 0.819 & 17.16 & 31.0 & 0.769 $[0,1)$ \\
+ & ACI & 3.58 & 0.898 & 9.78 & 18.4 & 0.900 $[50,\infty)$ \\
+ & Mondrian-ACI & 6.89 & 0.894 & 9.79 & 19.0 & 0.896 $[50,\infty)$ \\
+\midrule
+App 5G & Split CP & 0.00 & 0.986 & 38.62 & 41.5 & 0.974 $[0,1)$ \\
+ & ACI & 0.05 & 0.904 & 9.98 & 23.9 & 0.904 $[0,1)$ \\
+ & Mondrian-ACI & 1.07 & 0.903 & 9.90 & 24.8 & 0.870 $[50,\infty)$ \\
+\bottomrule
+\end{tabular}
+\end{table*}

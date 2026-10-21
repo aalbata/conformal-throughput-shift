@@ -1,0 +1,16 @@
+[
+ {
+  "file": "data/raw/LTE_Dataset.zip",
+  "source_url": "https://cs1dev.ucc.ie/misl/4G_Dataset/LTE_Dataset.zip",
+  "sha256": "45e95f8a6934da230067803983b45b20e5dfb0179431d43902c8193db770e6bd",
+  "bytes": 2252245,
+  "downloaded_utc": "2026-08-28T16:49:22Z"
+ },
+ {
+  "file": "data/raw/5G-production-dataset.zip",
+  "source_url": "https://raw.githubusercontent.com/uccmisl/5Gdataset/master/5G-production-dataset.zip",
+  "sha256": "abc729d696b5e0ba34a9c6ed35a851f2868d2b5071be5efb8a49691c23bb1a9b",
+  "bytes": 2177094,
+  "downloaded_utc": "2026-08-28T16:49:22Z"
+ }
+]

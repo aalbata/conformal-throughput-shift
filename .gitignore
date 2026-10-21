@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+.venv/
+full_run/
+data/raw/*.zip
+data/raw/*.part
+data/raw/4G/
+data/raw/5G/
+data/processed/
+data/external/
+data/ladder/
+results/locked/cells/
+results/pilot/*.csv
+results/amendment1/cells/
+results/amendment1/reproduce_only/
+results/amendment1/has/cells/
+audit/

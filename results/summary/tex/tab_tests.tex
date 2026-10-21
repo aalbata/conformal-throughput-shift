@@ -1,0 +1,35 @@
+\begin{table*}[!t]
+\caption{Paired two-sided Wilcoxon signed-rank tests on the absolute trace coverage deviation $\Delta_s$ of \eqref{eq:tracemetrics}, with traces paired, comparing Mondrian-ACI with each listed method. The five split CP comparisons form the pre-specified confirmatory family. $n$ is the number of paired traces, med.\ diff.\ the median of the Mondrian-ACI minus comparator differences of $\Delta_s$ (negative favors Mondrian-ACI), $r_{rb}$ the matched-pairs rank-biserial correlation, and $p_{\mathrm{BH}}$ the Benjamini--Hochberg adjusted $p$-value within each family. Abbreviations as in Table~\ref{tab:main}.}
+\label{tab:tests}
+\centering
+\footnotesize
+\begin{tabular}{llrrrr}
+\toprule
+Regime & vs. & $n$ & med.\ diff. & $r_{rb}$ & $p_{\mathrm{BH}}$ \\
+\midrule
+\multicolumn{6}{l}{\emph{Confirmatory family}} \\
+Mobility 4G & Split CP & 89 & $-$0.071 & $-$1.00 & $7.1\times10^{-16}$ \\
+Mobility 5G & Split CP & 60 & $-$0.072 & $-$1.00 & $1.6\times10^{-11}$ \\
+Tech 4G$\rightarrow$5G & Split CP & 83 & $-$0.068 & $-$0.99 & $5.8\times10^{-15}$ \\
+Tech 5G$\rightarrow$4G & Split CP & 135 & $-$0.075 & $-$1.00 & $3.9\times10^{-23}$ \\
+App 5G & Split CP & 62 & $-$0.085 & $-$1.00 & $9.5\times10^{-12}$ \\
+\midrule
+\multicolumn{6}{l}{\emph{Secondary family}} \\
+Mobility 4G & ACI & 89 & $-3.4\times10^{-5}$ & $-$0.34 & 0.012 \\
+Mobility 4G & Mondrian & 89 & $-$0.106 & $-$1.00 & $1.1\times10^{-15}$ \\
+Mobility 4G & CQR & 89 & $-$0.051 & $-$1.00 & $1.1\times10^{-15}$ \\
+Mobility 5G & ACI & 60 & $-$0.002 & $-$0.94 & $7.4\times10^{-10}$ \\
+Mobility 5G & Mondrian & 60 & $-$0.035 & $-$1.00 & $3.1\times10^{-11}$ \\
+Mobility 5G & CQR & 60 & $-$0.039 & $-$0.99 & $3.7\times10^{-11}$ \\
+Tech 4G$\rightarrow$5G & ACI & 83 & $1.6\times10^{-5}$ & 0.17 & 0.22 \\
+Tech 4G$\rightarrow$5G & Mondrian & 83 & $-$0.065 & $-$1.00 & $8.4\times10^{-15}$ \\
+Tech 4G$\rightarrow$5G & CQR & 83 & $-$0.126 & $-$0.99 & $9.3\times10^{-15}$ \\
+Tech 5G$\rightarrow$4G & ACI & 135 & $-4.6\times10^{-4}$ & $-$0.36 & $4.1\times10^{-4}$ \\
+Tech 5G$\rightarrow$4G & Mondrian & 135 & $-$0.088 & $-$0.99 & $2.4\times10^{-22}$ \\
+Tech 5G$\rightarrow$4G & CQR & 135 & $-$0.030 & $-$0.98 & $2.4\times10^{-22}$ \\
+App 5G & ACI & 62 & $-$0.001 & $-$0.72 & $1.1\times10^{-6}$ \\
+App 5G & Mondrian & 62 & $-$0.066 & $-$1.00 & $1.6\times10^{-11}$ \\
+App 5G & CQR & 62 & $-$0.019 & $-$0.93 & $3.1\times10^{-10}$ \\
+\bottomrule
+\end{tabular}
+\end{table*}

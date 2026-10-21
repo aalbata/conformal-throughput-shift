@@ -1,0 +1,28 @@
+{
+  "run": "locked confirmatory sweep",
+  "executed": "2026-08-28 (evening, local +04:00)",
+  "script": "scripts/run_locked.py",
+  "protocol": "protocol/protocol.json (sha256 a5a370e9da107e7021cfdaa6f75832a64fc0cc207a20766a87da31681a13bd0d)",
+  "design": {
+    "main_cells": "7 regimes x 20 seeds x gbm, alpha=0.1, gamma=0.05, h=1",
+    "abl_base": "ridge+persistence x 3 regimes x 5 seeds",
+    "abl_alpha05": "7 regimes x 5 seeds, alpha=0.05",
+    "abl_gamma": "gamma in {0.01,0.02} x 5 shifted regimes x 5 seeds",
+    "abl_h5": "2 regimes x 5 seeds, horizon=5",
+    "total_cells": 265
+  },
+  "environment": {
+    "machine": "RKW-P-H00655335, Intel Core Ultra 7 155U (12C/14T), 15.5 GB RAM, Windows 11 Enterprise 10.0.22631, no GPU",
+    "python": "3.12.10 (project venv)",
+    "n_jobs": 6,
+    "thread_env": {"OMP_NUM_THREADS": 1, "MKL_NUM_THREADS": 1, "OPENBLAS_NUM_THREADS": 1, "NUMEXPR_NUM_THREADS": 1},
+    "packages": "environment/requirements-lock.txt"
+  },
+  "outcome": {
+    "wall_clock_minutes": 60.2,
+    "failed_cells": 0,
+    "rows_written": 127995,
+    "output": "results/locked/locked_rows.csv.gz",
+    "peak_ram_note": "6 worker processes; per-worker working set well under 1 GB (feature table ~60 MB in memory + GBM); system stayed above the 4 GB free-RAM floor"
+  }
+}

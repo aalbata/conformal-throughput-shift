@@ -1,0 +1,62 @@
+{
+ "data_audit": {
+  "n_traces": 218,
+  "n_traces_4g": 135,
+  "n_traces_5g": 83,
+  "n_traces_5g_amazon_prime": 29,
+  "n_traces_5g_download": 21,
+  "n_traces_5g_netflix": 33,
+  "n_traces_4g_bus": 16,
+  "n_traces_4g_car": 53,
+  "n_traces_4g_pedestrian": 31,
+  "n_traces_4g_static": 15,
+  "n_traces_4g_train": 20,
+  "n_traces_5g_driving": 60,
+  "n_traces_5g_static": 23,
+  "n_traces_streaming_eligible": 156,
+  "n_instances": 286130,
+  "n_instances_4g": 159124,
+  "n_instances_5g": 127006,
+  "h1_target_dt_integral": true,
+  "h1_share_target_exactly_1s": 0.8577499737881382,
+  "h1_share_target_0s": 0.03420123719987418,
+  "h1_share_target_ge_2s": 0.10804878901198756,
+  "h1_n_target_negative_dt": 0,
+  "h1_n_target_exactly_1s": 245428,
+  "h1_n_target_0s": 9786,
+  "h1_n_target_ge_2s": 30916,
+  "h1_target_dt_max_s": 60.0,
+  "zero_share_all": 0.1500157271170447,
+  "zero_share_4g": 0.029304190442673638,
+  "zero_share_5g": 0.30125348408736596,
+  "n_instances_app_shift_test": 84865,
+  "zero_share_app_shift_test": 0.4344075885229482,
+  "y_min_mbps": 0.0,
+  "n_instances_h5": 285352,
+  "h5_share_target_exactly_5s": 0.4640759483024475,
+  "h5_share_target_below_5s": 0.07856962628613082,
+  "h5_share_target_above_5s": 0.4573544254114217,
+  "n_raw_rows": 363234,
+  "n_instances_timestamp_features": 253879
+ },
+ "ladder": {
+  "nominal_kbps": [
+   237.0,
+   752.0,
+   1815.0,
+   4282.0,
+   14817.0,
+   39537.0
+  ],
+  "measured_mean_kbps": [
+   237.33676729559747,
+   750.7631572327044,
+   1811.2424402515724,
+   4272.561962264152,
+   14783.805974842768,
+   39446.45675471698
+  ],
+  "n_video_segments": 159,
+  "segment_s": 4.0
+ }
+}

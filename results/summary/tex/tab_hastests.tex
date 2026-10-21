@@ -1,0 +1,24 @@
+\begin{table*}[!t]
+\caption{Pre-specified paired two-sided Wilcoxon signed-rank tests on per-trace QoE \eqref{eq:qoe}, comparing MPC with the Mondrian-ACI bound (a) with each listed comparator (b). Means are across traces; med.\ diff.\ is the median of a minus b (negative favors b), $r_{rb}$ the matched-pairs rank-biserial correlation, and $p_{\mathrm{BH}}$ the Benjamini--Hochberg adjusted $p$-value over the 12 tests. MPC, model predictive control; other abbreviations as in Table~\ref{tab:main}.}
+\label{tab:hastests}
+\centering
+\footnotesize
+\begin{tabular}{llrrrrrr}
+\toprule
+Regime & Comparator (b) & $n$ & QoE a & QoE b & med.\ diff. & $r_{rb}$ & $p_{\mathrm{BH}}$ \\
+\midrule
+Mobility 4G & MPC, ACI bound & 89 & $-$17.81 & $-$17.15 & $-$0.45 & $-$0.83 & $9.6\times10^{-11}$ \\
+Mobility 4G & MPC, split CP bound & 89 & $-$17.81 & $-$13.27 & $-$1.97 & $-$0.72 & $1.1\times10^{-8}$ \\
+Mobility 4G & RobustMPC & 89 & $-$17.81 & $-$15.72 & $-$3.22 & $-$0.56 & $8.2\times10^{-6}$ \\
+Mobility 5G & MPC, ACI bound & 16 & $-$2.27 & $-$2.19 & 0.02 & 0.01 & 0.98 \\
+Mobility 5G & MPC, split CP bound & 16 & $-$2.27 & 1.38 & $-$1.75 & $-$0.99 & $8.1\times10^{-5}$ \\
+Mobility 5G & RobustMPC & 16 & $-$2.27 & 7.60 & $-$8.59 & $-$1.00 & $4.6\times10^{-5}$ \\
+Tech 4G$\rightarrow$5G & MPC, ACI bound & 21 & $-$2.44 & $-$2.40 & $-$0.09 & $-$0.65 & 0.0077 \\
+Tech 4G$\rightarrow$5G & MPC, split CP bound & 21 & $-$2.44 & 7.32 & $-$8.55 & $-$0.97 & $8.2\times10^{-6}$ \\
+Tech 4G$\rightarrow$5G & RobustMPC & 21 & $-$2.44 & 10.40 & $-$10.27 & $-$1.00 & $2.3\times10^{-6}$ \\
+Tech 5G$\rightarrow$4G & MPC, ACI bound & 135 & $-$12.78 & $-$12.67 & $-$0.02 & $-$0.37 & $2.6\times10^{-4}$ \\
+Tech 5G$\rightarrow$4G & MPC, split CP bound & 135 & $-$12.78 & $-$11.13 & $-$0.55 & $-$0.74 & $8.8\times10^{-13}$ \\
+Tech 5G$\rightarrow$4G & RobustMPC & 135 & $-$12.78 & $-$8.08 & $-$3.98 & $-$0.73 & $8.8\times10^{-13}$ \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,59 @@
+\begin{table*}[!t]
+\caption{Trace-driven adaptive-streaming simulation in the four shifted regimes with capacity traces (number of traces in parentheses), 20 seeds. Means across traces of per-trace values averaged over seeds: average bitrate in Mbit/s, rebuffering ratio in percent of playback plus rebuffering time, number of stalls after startup, quality switches per minute of playback, and the QoE \eqref{eq:qoe} per segment (higher is better). Rate denotes the rate-based rule; bounds are interval lower bounds at $\alpha=0.10$. Startup delay is identical across variants because the first segment is always fetched at the lowest representation. MPC, model predictive control; other abbreviations as in Table~\ref{tab:main}.}
+\label{tab:has}
+\centering
+\footnotesize
+\begin{tabular}{llrrrrr}
+\toprule
+Regime (traces) & Player and estimate & Bitrate & Rebuf.\ (\%) & Stalls & Switches/min & QoE \\
+\midrule
+Mobility 4G (89) & Rate, harmonic mean & 7.02 & 6.03 & 4.91 & 1.93 & $-$16.86 \\
+ & Rate, point prediction & 7.48 & 6.14 & 5.29 & 4.14 & $-$20.11 \\
+ & Rate, split CP bound & 4.68 & 4.15 & 1.66 & 4.35 & $-$15.27 \\
+ & Rate, ACI bound & 2.76 & 4.03 & 1.55 & 6.02 & $-$17.72 \\
+ & Rate, Mondrian-ACI bound & 2.53 & 4.06 & 1.55 & 5.89 & $-$18.02 \\
+ & MPC, harmonic mean & 12.79 & 11.26 & 16.98 & 4.37 & $-$27.73 \\
+ & RobustMPC & 10.59 & 5.83 & 3.63 & 3.87 & $-$15.72 \\
+ & MPC, point prediction & 12.67 & 9.56 & 12.99 & 5.18 & $-$26.42 \\
+ & MPC, split CP bound & 9.80 & 5.10 & 2.23 & 3.81 & $-$13.27 \\
+ & MPC, ACI bound & 6.67 & 4.49 & 1.69 & 5.49 & $-$17.15 \\
+ & MPC, Mondrian-ACI bound & 5.96 & 4.43 & 1.69 & 5.45 & $-$17.81 \\
+\midrule
+Mobility 5G (16) & Rate, harmonic mean & 10.91 & 2.20 & 6.19 & 1.91 & 6.15 \\
+ & Rate, point prediction & 9.12 & 3.87 & 7.76 & 7.39 & $-$2.28 \\
+ & Rate, split CP bound & 5.32 & 0.83 & 1.08 & 3.57 & 0.05 \\
+ & Rate, ACI bound & 1.76 & 0.86 & 0.96 & 3.36 & $-$1.86 \\
+ & Rate, Mondrian-ACI bound & 1.58 & 0.89 & 1.03 & 3.40 & $-$1.97 \\
+ & MPC, harmonic mean & 17.14 & 6.52 & 19.44 & 4.03 & 3.50 \\
+ & RobustMPC & 12.49 & 1.44 & 2.69 & 3.82 & 7.60 \\
+ & MPC, point prediction & 14.54 & 4.99 & 11.93 & 5.72 & 1.15 \\
+ & MPC, split CP bound & 6.95 & 1.05 & 1.39 & 2.91 & 1.38 \\
+ & MPC, ACI bound & 2.47 & 1.00 & 1.04 & 3.44 & $-$2.19 \\
+ & MPC, Mondrian-ACI bound & 2.26 & 0.96 & 1.02 & 3.55 & $-$2.27 \\
+\midrule
+Tech 4G$\rightarrow$5G (21) & Rate, harmonic mean & 14.70 & 2.27 & 6.38 & 1.88 & 9.57 \\
+ & Rate, point prediction & 14.07 & 2.44 & 6.38 & 6.46 & 3.91 \\
+ & Rate, split CP bound & 10.77 & 0.82 & 1.27 & 6.72 & 3.10 \\
+ & Rate, ACI bound & 2.05 & 0.67 & 1.07 & 6.13 & $-$1.79 \\
+ & Rate, Mondrian-ACI bound & 2.03 & 0.68 & 1.07 & 6.13 & $-$1.82 \\
+ & MPC, harmonic mean & 21.13 & 6.38 & 20.24 & 3.45 & 7.78 \\
+ & RobustMPC & 15.87 & 1.68 & 2.95 & 3.56 & 10.40 \\
+ & MPC, point prediction & 20.17 & 5.45 & 18.13 & 5.05 & 6.23 \\
+ & MPC, split CP bound & 15.55 & 1.69 & 2.83 & 4.94 & 7.32 \\
+ & MPC, ACI bound & 4.07 & 1.09 & 1.38 & 5.87 & $-$2.40 \\
+ & MPC, Mondrian-ACI bound & 4.04 & 1.07 & 1.37 & 5.85 & $-$2.44 \\
+\midrule
+Tech 5G$\rightarrow$4G (135) & Rate, harmonic mean & 7.09 & 4.51 & 4.19 & 1.79 & $-$9.72 \\
+ & Rate, point prediction & 4.17 & 4.09 & 2.95 & 5.46 & $-$25.05 \\
+ & Rate, split CP bound & 1.13 & 2.75 & 0.83 & 2.89 & $-$11.84 \\
+ & Rate, ACI bound & 0.55 & 2.83 & 0.96 & 3.06 & $-$12.67 \\
+ & Rate, Mondrian-ACI bound & 0.55 & 2.83 & 0.98 & 3.06 & $-$12.62 \\
+ & MPC, harmonic mean & 12.42 & 8.97 & 15.22 & 4.31 & $-$17.69 \\
+ & RobustMPC & 10.61 & 4.27 & 2.96 & 3.77 & $-$8.08 \\
+ & MPC, point prediction & 10.77 & 5.66 & 5.62 & 4.97 & $-$15.00 \\
+ & MPC, split CP bound & 2.79 & 2.82 & 0.88 & 2.59 & $-$11.13 \\
+ & MPC, ACI bound & 1.11 & 2.87 & 1.02 & 3.20 & $-$12.67 \\
+ & MPC, Mondrian-ACI bound & 1.09 & 2.88 & 1.02 & 3.21 & $-$12.78 \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,20 @@
+{
+ "pilot_seeds": [
+  100,
+  101,
+  102
+ ],
+ "gammas": [
+  0.01,
+  0.02,
+  0.05
+ ],
+ "regimes": [
+  "in_domain_4g",
+  "in_domain_5g",
+  "cross_mobility_5g",
+  "cross_tech_4to5"
+ ],
+ "date": "2026-08-28",
+ "note": "exploratory only; never reported as confirmatory"
+}
